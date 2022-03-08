@@ -1,6 +1,8 @@
+import './SubComponent.css';
+
 function SubComponent(){
     return(
-        <div className="app_h">
+        <div className="sub_hS">
             <h2>Sub component</h2>
         </div>
     );
