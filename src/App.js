@@ -1,9 +1,8 @@
 import './App.css';
+import SubComponent from './SubComponents/SubComponent';
 function App(){
     return(
-        <div className="app_h">
-            <h2>parent component</h2>
-        </div>
+       < SubComponent/>
     );
 }
 export default App;
